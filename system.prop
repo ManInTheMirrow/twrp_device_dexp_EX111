@@ -1,0 +1,20 @@
+# build properties
+ro.product.board=EX111
+ro.product.hardware=s9863a1h10
+ro.vendor.wcn.hardware.product=sharkl3
+ro.vendor.wcn.hardware.etcpath=/vendor/etc
+
+# from device/sprd/sharkl3/s9863a1h10/system.prop
+ro.vendor.product.partitionpath=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/
+ro.vendor.keybox.id.value=WKV
+ro.vendor.ko.mount.point=/mnt/vendor
+ro.vendor.product.partitionpath=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/
+# end of device/sprd/sharkl3/s9863a1h10_go_32b/system.prop
+
+# FRP property for pst device
+ro.frp.pst=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist
+
+ro.sf.lcd_density=240
+sys.usb.controller=musb-hdrc.0.auto
+ro.crypto.volume.filenames_mode=aes-256-cts
+# end build properties
