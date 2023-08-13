@@ -8,7 +8,4 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_EX111.mk
 
-COMMON_LUNCH_CHOICES := \
-    twrp_EX111-user \
-    twrp_EX111-userdebug \
-    twrp_EX111-eng
+COMMON_LUNCH_CHOICES := twrp_EX111-eng
