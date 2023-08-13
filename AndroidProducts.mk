@@ -6,6 +6,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_EX111.mk
+    $(LOCAL_DIR)/omni_EX111.mk
 
-COMMON_LUNCH_CHOICES := twrp_EX111-eng
+COMMON_LUNCH_CHOICES := omni_EX111-eng
